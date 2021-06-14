@@ -39,7 +39,7 @@ public class VentanaGrafica extends javax.swing.JFrame {
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         } catch (ClassNotFoundException | IllegalAccessException | InstantiationException | UnsupportedLookAndFeelException ex) {
-            LOGGER.log(Level.SEVERE, "error setting look and feel", ex);
+            LOGGER.log(Level.SEVERE, "Error configurando SystemLookAndFeel", ex);
         }
     }
 
